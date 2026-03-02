@@ -1,0 +1,29 @@
+{
+  "name": "gptgenius",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "npx prisma generate && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^6.19.2",
+    "@prisma/client": "^6.8.1",
+    "@tanstack/react-query": "^5.75.7",
+    "axios": "^1.9.0",
+    "next": "^15.3.8",
+    "openai": "^4.98.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "daisyui": "^5.0.35",
+    "prisma": "^6.8.1",
+    "tailwindcss": "^4"
+  }
+}
